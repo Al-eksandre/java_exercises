@@ -6,7 +6,9 @@ public class Main {
     }
 
     public static String addBinary(String a, String b) {
-        int result = Integer.sum(Integer.parseInt(a, 2), Integer.parseInt(b, 2));
-        return Integer.toString(result, 2);
+        long number1 = Long.parseLong(a,2);
+        long number2 = Long.parseLong(b,2);
+        long sum = number1 + number2;
+        return Long.toString(sum,2);
     }
 }
