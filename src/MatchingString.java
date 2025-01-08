@@ -9,7 +9,7 @@ public class MatchingString {
         List<String> resultList = new ArrayList<>();
         for (int i = 0; i < wordList.size(); i++) {
             String current = wordList.get(i);
-            for (int j = 0; j < wordList.size(); j++) {
+            for (int j = 1; j < wordList.size(); j++) {
                 if (!resultList.contains(wordList.get(j)) && current.indexOf(wordList.get(j)) >= 0 && !current.equals(wordList.get(j)))
                     resultList.add(wordList.get(j));
             }
