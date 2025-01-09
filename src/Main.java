@@ -10,5 +10,6 @@ public class Main {
         System.out.println(CountingWordsWithGivenPrefix.prefixCount(prefixWords, "at"));
         int[] numsForMajority = {2, 2, 1, 1, 1, 2, 2};
         System.out.println(MajorityElement.majorityElement(numsForMajority));
+        System.out.println(ValidPalindrome.isPalindrome("race a car"));
     }
 }
