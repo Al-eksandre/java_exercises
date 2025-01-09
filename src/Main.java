@@ -6,7 +6,9 @@ public class Main {
         System.out.println(MatchingString.matchingString(strWords));
         String[] words = {"b", "ba", "b", "b", "b"};
         System.out.println(CountPrefixSuffixPairs.countPrefixSuffixPairs(words));
-        String[] prefixWords = {"pay","attention","practice","attend"};
-        System.out.println(CountingWordsWithGivenPrefix.prefixCount(prefixWords,"at"));
+        String[] prefixWords = {"pay", "attention", "practice", "attend"};
+        System.out.println(CountingWordsWithGivenPrefix.prefixCount(prefixWords, "at"));
+        int[] numsForMajority = {2, 2, 1, 1, 1, 2, 2};
+        System.out.println(MajorityElement.majorityElement(numsForMajority));
     }
 }
