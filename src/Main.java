@@ -17,6 +17,6 @@ public class Main {
         System.out.println(WordSubsets.isSubset(words1, words2));
         int nums[] = {1, 2, 3, 1};
         System.out.println(ContainsDuplicate.containsDuplicate(nums));
-        System.out.println(PowerOfTwo.isPowerOfTwo(32));
+        System.out.println(AddDigits.addDigit(38));
     }
 }
