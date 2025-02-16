@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +19,7 @@ public class Main {
         int nums[] = {1, 2, 3, 1};
         System.out.println(ContainsDuplicate.containsDuplicate(nums));
         System.out.println(AddDigits.addDigit(38));
+        int[][] g = {{0, 1, 0, 0}, {1, 1, 1, 0}, {0, 1, 0, 0}, {1, 1, 0, 0}};
+        System.out.println(IslandPerimeter.islandPerimeter(g));
     }
 }
