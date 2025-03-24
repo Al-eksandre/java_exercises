@@ -21,5 +21,8 @@ public class Main {
         System.out.println(AddDigits.addDigit(38));
         int[][] g = {{0, 1, 0, 0}, {1, 1, 1, 0}, {0, 1, 0, 0}, {1, 1, 0, 0}};
         System.out.println(IslandPerimeter.islandPerimeter(g));
+        int[] arr1 = {4, 9, 5};
+        int[] arr2 = {9, 4, 9, 8, 4};
+        ArrayIntersection.twoArrIntersection(arr1,arr2);
     }
 }
